@@ -1,8 +1,12 @@
-import React from 'react';
+'use client';
+
+import React, { useState } from 'react';
 import Link from 'next/link';
-import { Menu, Wrench, ThermometerSun, ShieldCheck, Clock, PhoneCall, ChevronRight, ChevronDown, MessageCircle } from 'lucide-react';
+import { Menu, X, Wrench, ThermometerSun, ShieldCheck, Clock, PhoneCall, ChevronRight, ChevronDown, MessageCircle } from 'lucide-react';
 
 export default function Home() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   return (
     <div className="min-h-screen bg-slate-50 font-sans text-slate-900">
       
@@ -56,16 +60,46 @@ export default function Home() {
             <Link href="#iletisim" className="hover:text-orange-500 transition-colors py-8">İletişim</Link>
           </nav>
 
-          {/* Mobil Menü */}
-          <button className="p-2 text-slate-600 hover:text-orange-500 transition-colors lg:hidden">
-            <Menu className="w-8 h-8" />
+          {/* Mobil Menü Butonu */}
+          <button 
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            className="p-2 text-slate-600 hover:text-orange-500 transition-colors lg:hidden focus:outline-none"
+            aria-label="Mobil Menü"
+          >
+            {mobileMenuOpen ? <X className="w-8 h-8" /> : <Menu className="w-8 h-8" />}
           </button>
         </div>
+
+        {/* Mobil Menü Açılır Paneli */}
+        {mobileMenuOpen && (
+          <div className="absolute top-20 left-0 w-full bg-white border-b border-slate-200 shadow-2xl lg:hidden transition-all z-50">
+            <div className="px-6 py-6 flex flex-col gap-4 font-medium text-slate-700 max-h-[80vh] overflow-y-auto">
+              
+              <div className="font-bold text-orange-500 text-xs uppercase tracking-wider">Hizmetlerimiz</div>
+              <Link href="/kombi-tamiri" onClick={() => setMobileMenuOpen(false)} className="pl-3 py-1 hover:text-orange-500 text-sm">Kombi Tamiri & Onarım</Link>
+              <Link href="/kombi-bakimi" onClick={() => setMobileMenuOpen(false)} className="pl-3 py-1 hover:text-orange-500 text-sm">Periyodik Kombi Bakımı</Link>
+              <Link href="/petek-temizligi" onClick={() => setMobileMenuOpen(false)} className="pl-3 py-1 hover:text-orange-500 text-sm">Makineli Petek Temizliği</Link>
+              
+              <div className="font-bold text-orange-500 text-xs uppercase tracking-wider pt-3 border-t border-slate-100">Hizmet Bölgeleri</div>
+              <Link href="/bolgeler/cekmekoy" onClick={() => setMobileMenuOpen(false)} className="pl-3 py-1 hover:text-orange-500 text-sm">Çekmeköy</Link>
+              <Link href="/bolgeler/sancaktepe" onClick={() => setMobileMenuOpen(false)} className="pl-3 py-1 hover:text-orange-500 text-sm">Sancaktepe</Link>
+              <Link href="/bolgeler/sultanbeyli" onClick={() => setMobileMenuOpen(false)} className="pl-3 py-1 hover:text-orange-500 text-sm">Sultanbeyli</Link>
+              <Link href="/bolgeler/umraniye" onClick={() => setMobileMenuOpen(false)} className="pl-3 py-1 hover:text-orange-500 text-sm">Ümraniye</Link>
+              <Link href="/bolgeler/kadikoy" onClick={() => setMobileMenuOpen(false)} className="pl-3 py-1 hover:text-orange-500 text-sm">Kadıköy</Link>
+
+              <div className="pt-3 border-t border-slate-100 flex flex-col gap-3 font-semibold">
+                <Link href="/hakkimizda" onClick={() => setMobileMenuOpen(false)} className="hover:text-orange-500">Hakkımızda</Link>
+                <Link href="/sss" onClick={() => setMobileMenuOpen(false)} className="hover:text-orange-500">SSS</Link>
+                <Link href="#iletisim" onClick={() => setMobileMenuOpen(false)} className="hover:text-orange-500">İletişim</Link>
+              </div>
+
+            </div>
+          </div>
+        )}
       </header>
 
-      {/* HERO SECTION (Kadın Çağrı Merkezi Temsilcisi Görseli & WhatsApp Butonu ile) */}
+      {/* HERO SECTION */}
       <section className="relative bg-slate-900 text-white py-24 lg:py-36 overflow-hidden">
-        {/* Arka Plan Görseli ve Koyu Filtre (Overlay) */}
         <div className="absolute inset-0 z-0">
           <img 
             src="https://plus.unsplash.com/premium_photo-1658506646178-e4ef5810361b?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
@@ -86,7 +120,6 @@ export default function Home() {
             Kombi arızaları, periyodik bakım ve petek temizliği için aynı gün garantili servis hizmeti sunuyoruz. Uzman ekip, şeffaf fiyat.
           </p>
           
-          {/* Aksiyon Butonları (Telefon, WhatsApp ve Hizmetler) */}
           <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto justify-center">
             <a href="tel:+905365499349" className="flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all transform hover:scale-105 shadow-xl shadow-orange-500/40">
               <PhoneCall className="w-5 h-5" />
@@ -153,7 +186,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SERVİS VERDİĞİMİZ MARKALAR (Google Ads Uyumlu Özel Servis) */}
+      {/* SERVİS VERDİĞİMİZ MARKALAR */}
       <section className="py-16 bg-white border-t border-slate-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="text-orange-500 font-semibold tracking-wide uppercase text-sm">Geniş Yedek Parça & Uzmanlık</span>
