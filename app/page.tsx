@@ -246,11 +246,22 @@ export default function Home() {
           </div>
           <div>
             <h4 className="text-white font-bold mb-4">İletişim</h4>
-            <ul className="space-y-2 text-sm">
+            <ul className="space-y-2 text-sm mb-4">
               <li>0 (536) 549 93 49</li>
               <li>info@istanbulkombiteknik.com.tr</li>
               <li>Meclis, Semih Sancar Cd. No:15, 34785 Sancaktepe/İstanbul</li>
             </ul>
+            {/* React/JSX uyumlu hale getirilmiş ve footer sütununa tam oturacak şekilde ayarlanmış harita */}
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.562370358071!2d29.20244907519732!3d41.01295091913841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cace491d77b295%3A0x75d8c3516ce6836b!2sMeclis%2C%20Semih%20Sancar%20Cd.%20No%3A15%2C%2034785%20Sancaktepe%2F%C4%B0stanbul!5e0!3m2!1str!2str!4v1789000850926!5m2!1str!2str" 
+              width="100%" 
+              height="180" 
+              style={{ border: 0 }} 
+              allowFullScreen={true} 
+              loading="lazy" 
+              referrerPolicy="strict-origin-when-cross-origin"
+              className="rounded-xl shadow-md w-full"
+            ></iframe>
           </div>
           <div id="bolgeler">
             <h4 className="text-white font-bold mb-4">Hizmet Bölgeleri</h4>

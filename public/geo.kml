@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Istanbul Kombi Teknik Servis Bolgeleri</name>
+    <description>Istanbul Anadolu Yakasi Kombi Tamiri, Bakimi ve Petek Temizligi Hizmet Agi</description>
+    
+    <Placemark>
+      <name>Istanbul Kombi Teknik Servis Hizmetleri</name>
+      <address>Meclis, Semih Sancar Cd. No:15, 34785 Sancaktepe/Istanbul</address>
+      <Point>
+        <coordinates>29.205023,41.012950</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Cekmekoy Servis Bolgesi</name>
+      <Point>
+        <coordinates>29.185442,41.025819</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Sancaktepe Servis Bolgesi</name>
+      <Point>
+        <coordinates>29.228811,40.994001</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Umraniye Servis Bolgesi</name>
+      <Point>
+        <coordinates>29.099353,41.029693</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Sultanbeyli Servis Bolgesi</name>
+      <Point>
+        <coordinates>29.259218,40.970977</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Kadıköy Servis Bolgesi</name>
+      <Point>
+        <coordinates>29.036928,40.993733</coordinates>
+      </Point>
+    </Placemark>
+
+  </Document>
+</kml>
