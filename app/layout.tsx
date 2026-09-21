@@ -33,7 +33,7 @@ export default function RootLayout({
     "image": "https://istanbulkombiteknik.com.tr/icon.svg",
     "@id": "https://istanbulkombiteknik.com.tr/#organization",
     "url": "https://istanbulkombiteknik.com.tr",
-    "telephone": "+905365499349",
+    "telephone": "+905367499349",
     "priceRange": "₺₺",
     "address": {
       "@type": "PostalAddress",

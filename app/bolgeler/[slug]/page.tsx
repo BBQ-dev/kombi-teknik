@@ -135,9 +135,9 @@ export default async function BolgePage({ params }: PageProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h3 className="text-2xl md:text-3xl font-bold mb-4">Bu Bölgeden Servis Çağırmak Çok Kolay</h3>
           <p className="text-slate-600 mb-8 max-w-xl mx-auto">Hemen bizi arayın, ekibimiz adresinize gelerek kombi sorunlarınızı yerinde ve ekonomik şekilde çözsün.</p>
-          <a href="tel:+905365499349" className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">
+          <a href="tel:+905367499349" className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg">
             <PhoneCall className="w-5 h-5" />
-            Hemen Ara: 0 (536) 549 93 49
+            Hemen Ara: 0 (536) 749 93 49
           </a>
         </div>
       </section>
@@ -157,7 +157,7 @@ export default async function BolgePage({ params }: PageProps) {
           <div>
             <h4 className="text-white font-bold mb-4">İletişim</h4>
             <ul className="space-y-2 text-sm">
-              <li>0 (536) 549 93 49</li>
+              <li>0 (536) 749 93 49</li>
               <li>info@istanbulkombiteknik.com.tr</li>
               <li>Meclis, Semih Sancar Cd. No:15, 34785 Sancaktepe/İstanbul</li>
             </ul>

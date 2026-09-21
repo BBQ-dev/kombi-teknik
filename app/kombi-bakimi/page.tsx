@@ -119,7 +119,7 @@ export default function KombiBakimi() {
                 Üretici firmalar ve uzmanlar, kombi bakımının kış sezonu girmeden (Eylül - Ekim aylarında) yılda en az 1 kez yapılmasını önermektedir. Düzenli bakım ani arızaların önüne geçer.
               </p>
             </div>
-            <a href="tel:+905365499349" className="flex-shrink-0 inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-xl font-bold transition-all shadow-lg">
+            <a href="tel:+905367499349" className="flex-shrink-0 inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-xl font-bold transition-all shadow-lg">
               <PhoneCall className="w-5 h-5" />
               Hemen Bakım Randevusu Al
             </a>
@@ -142,7 +142,7 @@ export default function KombiBakimi() {
           <div>
             <h4 className="text-white font-bold mb-4">İletişim</h4>
             <ul className="space-y-2 text-sm">
-              <li>0 (536) 549 93 49</li>
+              <li>0 (536) 749 93 49</li>
               <li>info@istanbulkombiteknik.com.tr</li>
               <li>Meclis, Semih Sancar Cd. No:15, 34785 Sancaktepe/İstanbul</li>
             </ul>

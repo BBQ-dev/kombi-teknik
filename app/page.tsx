@@ -121,12 +121,12 @@ export default function Home() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto justify-center">
-            <a href="tel:+905365499349" className="flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all transform hover:scale-105 shadow-xl shadow-orange-500/40">
+            <a href="tel:+905367499349" className="flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all transform hover:scale-105 shadow-xl shadow-orange-500/40">
               <PhoneCall className="w-5 h-5" />
               Hemen Servis Çağır
             </a>
             <a 
-              href="https://wa.me/905365499349?text=Merhaba,%20kombi%20servisi%20için%20ulaşıyorum.%20Yardımcı%20olabilir misiniz?" 
+              href="https://wa.me/905367499349?text=Merhaba,%20kombi%20servisi%20için%20ulaşıyorum.%20Yardımcı%20olabilir misiniz?" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all transform hover:scale-105 shadow-xl shadow-emerald-600/30"

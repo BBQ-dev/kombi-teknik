@@ -106,7 +106,7 @@ export default function PetekTemizligi() {
                 Temizlenen petekler ısıyı odaya çok daha rahat yayar. Böylece kombiniz daha düşük derecelerde çalışarak evinizi ısıtır ve faturalarınızda belirgin bir düşüş sağlar.
               </p>
             </div>
-            <a href="tel:+905365499349" className="flex-shrink-0 inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-xl font-bold transition-all shadow-lg">
+            <a href="tel:+905367499349" className="flex-shrink-0 inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-xl font-bold transition-all shadow-lg">
               <PhoneCall className="w-5 h-5" />
               Hemen Petek Temizliği Yaptır
             </a>

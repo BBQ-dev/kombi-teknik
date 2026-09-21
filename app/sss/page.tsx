@@ -405,11 +405,11 @@ export default function SSSPage() {
           </p>
 
           <a
-            href="tel:+905365499349"
+            href="tel:+905367499349"
             className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg hover:shadow-xl"
           >
             <PhoneCall className="w-5 h-5" />
-            Hemen Ara: 0 (536) 549 93 49
+            Hemen Ara: 0 (536) 749 93 49
           </a>
 
         </div>
@@ -444,7 +444,7 @@ export default function SSSPage() {
             </h4>
 
             <ul className="space-y-2 text-sm">
-              <li>0 (536) 549 93 49</li>
+              <li>0 (536) 749 93 49</li>
               <li>info@istanbulkombiteknik.com.tr</li>
               <li>
                 Meclis, Semih Sancar Cd. No:15,

@@ -169,7 +169,7 @@ export default function KVKKPage() {
                 <strong>E-posta:</strong> info@istanbulkombiteknik.com.tr
               </p>
               <p>
-                <strong>Telefon:</strong> 0 (536) 549 93 49
+                <strong>Telefon:</strong> 0 (536) 749 93 49
               </p>
               <p>
                 <strong>Web sitesi:</strong> istanbulkombiteknik.com.tr
@@ -553,7 +553,7 @@ export default function KVKKPage() {
             </h4>
 
             <ul className="space-y-2 text-sm">
-              <li>0 (536) 549 93 49</li>
+              <li>0 (536) 749 93 49</li>
               <li>info@istanbulkombiteknik.com.tr</li>
               <li>
                 Meclis, Semih Sancar Cd. No:15,
