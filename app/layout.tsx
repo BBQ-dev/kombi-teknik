@@ -33,6 +33,7 @@ export default function RootLayout({
     "image": "https://istanbulkombiteknik.com.tr/icon.svg",
     "@id": "https://istanbulkombiteknik.com.tr/#organization",
     "url": "https://istanbulkombiteknik.com.tr",
+    "hasMap": "https://maps.app.goo.gl/9hskbFkLCHcfGXoh6?g_st=iw",
     "telephone": "+905367499349",
     "priceRange": "₺₺",
     "address": {
@@ -59,7 +60,7 @@ export default function RootLayout({
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
         "opens": "08:00",
-        "closes": "20:00"
+        "closes": "22:00"
       }
     ],
     "hasOfferCatalog": {
