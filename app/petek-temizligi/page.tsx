@@ -106,7 +106,7 @@ export default function PetekTemizligi() {
                 Temizlenen petekler ısıyı odaya çok daha rahat yayar. Böylece kombiniz daha düşük derecelerde çalışarak evinizi ısıtır ve faturalarınızda belirgin bir düşüş sağlar.
               </p>
             </div>
-            <a href="tel:+905367499349" className="flex-shrink-0 inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-xl font-bold transition-all shadow-lg">
+            <a href="tel:+902166429074" className="flex-shrink-0 inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-xl font-bold transition-all shadow-lg">
               <PhoneCall className="w-5 h-5" />
               Hemen Petek Temizliği Yaptır
             </a>
@@ -129,7 +129,7 @@ export default function PetekTemizligi() {
           <div>
             <h4 className="text-white font-bold mb-4">İletişim</h4>
             <ul className="space-y-2 text-sm">
-              <li>0 (536) 549 93 49</li>
+              <li>0 (216) 642 90 74</li>
               <li>info@istanbulkombiteknik.com.tr</li>
               <li>Meclis, Semih Sancar Cd. No:15, 34785 Sancaktepe/İstanbul</li>
             </ul>

@@ -134,7 +134,7 @@ export default function Hakkimizda() {
           <div>
             <h4 className="text-white font-bold mb-4">İletişim</h4>
             <ul className="space-y-2 text-sm">
-              <li>0 (536) 549 93 49</li>
+              <li>0 (216) 642 90 74</li>
               <li>info@istanbulkombiteknik.com.tr</li>
               <li>Meclis, Semih Sancar Cd. No:15, 34785 Sancaktepe/İstanbul</li>
             </ul>
